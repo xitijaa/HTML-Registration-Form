@@ -1,0 +1,60 @@
+<!Doctype html>
+<html>
+<head>
+<title> Registration Form</title>
+</head>
+<body>
+<h1>my registration form</h1>
+<form>
+<div>
+<label>first name</label>
+<input type="text"name="fname">
+</div>
+<br/>
+<div>
+<label>
+last name </label>
+<input type ="text" name="lname">
+</div>
+<br/>
+<div>
+<label>Gender</label>
+<br/>
+<input type ="redio" name="gender"/>
+<label>male</label>
+<br/>
+<input type="radio" name="gender"/>
+<label/> fname </label>
+<br/>
+<input type="radio" name="gender"/>
+<br/>
+<input type="radio"name="gender"/>
+<br/>
+</div>
+<br/>
+<div>
+<label/>course</label>
+<select>
+<option>HTML</option>
+<option>CSS</option>
+<option>Java Script</option>
+</select>
+</div>
+<br/>
+<div>
+<label>Mobile Number</label>
+<inut type="number" name="email">
+</div>
+<br/>
+<div>
+<label>Address</label>
+<text area rows ="3" cols="30">
+</text area>
+</div>
+<br/>
+<div>
+<input type="submit" value="submit"/>
+</div>
+</form>
+</body>
+</html>
